@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
-import Table from '../components/Table'; // Create this component
+import Table from '../components/Table'; 
 import { Link } from 'react-router-dom';
 
 const Dashboard = () => {
-    // State for search input
+
     const [searchTerm, setSearchTerm] = useState('');
 
-    // State for pagination
+   
     const [currentPage, setCurrentPage] = useState(1);
     const recordsPerPage = 50;
 
-    // Mock API response (replace with your actual API call)
+   
     const apiResponse = [
         {
             "id": 1,

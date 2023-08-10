@@ -114,7 +114,6 @@ function Resume() {
             <header>
                 <h1 className='Full-name'>{`${resumeData.first_name} ${resumeData.last_name}`}</h1>
                 <p>{resumeData.profession}</p>
-                {/* Add other contact details */}
             </header>
             <div className='resume'>
                 <div className='column-1'>
