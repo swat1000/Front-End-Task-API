@@ -1,15 +1,19 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Dashboard from './pages/Dashboard'; // Import your Dashboard component
-import './App.css'; // You can import your CSS or Tailwind styles here
+import Dashboard from './pages/Dashboard'; 
+import './App.css'; 
+import Resume from './pages/Resume'
+import Home from './pages/Home';
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Routes>
+        <Route exact path='/' element= {<Home/>}/>
         <Route exact path='/admin/dashboard' element= {<Dashboard/>}/>
-          {/* Add more routes here if needed */}
+        <Route exact path='/Resume' element= {<Resume/>}/>
+         
         </Routes>
       </div>
     </Router>

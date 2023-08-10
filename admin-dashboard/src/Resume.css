@@ -1,0 +1,68 @@
+
+
+.Full-name{
+    text-transform: uppercase;
+    background: red;
+    
+}
+
+.contacts{
+    text-align: start;
+    color: orange;
+    border: 1px solid black;
+    margin: 20px;
+    margin-left: 180px;
+}
+
+.summary{
+    width: 350px;
+    border: 1px solid black;
+    margin: 20px;
+    margin-left: 180px;
+    
+
+}
+
+.skills{
+    width: 350px;
+    border: 1px solid black;
+    margin: 20px;
+    margin-left: 180px;
+}
+
+.education{
+    width: 350px;
+    border: 1px solid black;
+    margin: 20px;
+    margin-left: 180px;
+}
+
+.resume{
+    display: flex;
+    padding: 60px;
+    margin: 30px;
+    
+}
+
+.work-experience{
+    width: 650px;
+    border: 1px solid black;
+    margin: 20px;
+    margin-left: 70px;
+}
+.skills p{
+    background: lightblue;
+    padding: 5px;
+    border-radius: 40%;
+}
+
+.projects{
+    width: 650px;
+    border: 1px solid black;
+    margin: 20px;
+    margin-left: 70px;
+}
+
+h2{
+    background: lightgray;
+}

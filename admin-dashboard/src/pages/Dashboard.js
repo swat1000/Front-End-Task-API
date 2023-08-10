@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Table from '../components/Table'; // Create this component
+import { Link } from 'react-router-dom';
 
 const Dashboard = () => {
     // State for search input
@@ -172,6 +173,8 @@ const Dashboard = () => {
                 >
                     Next
                 </button>
+                <Link to="/" style={{ height: "30px", background: "green" , padding:"10px", textDecoration: "none", color: "white", marginRight: "10px"}}>Home Page</Link>
+                <Link to="/resume" style={{ height: "30px", background: "green" , padding:"10px", textDecoration: "none", color: "white"}}>Check resume Task 2</Link>
             </div>
         </div>
     );
